@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  height: calc(100vh - 40px);
+}
+.hijo{
+  width: 33.3%;
+  border: solid gray 1px;
+  text-align: center;
+}
+.color{
+  border: solid black 1px;
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+
+}
+.colores{
+  display: flex;
+
+
+}
+.color:nth-child(1){
+  background-color: blue ;
+}
+.color:nth-child(2){
+  background-color: orange ;
+}
+.color:nth-child(3){
+  background-color: yellow;
+}
+.color:nth-child(4){
+  background-color: green;
+}
+img{
+  width: 150px;
+  height: 150px;
+}
