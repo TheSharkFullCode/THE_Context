@@ -5,6 +5,7 @@ import { Datos } from './The_Contexto'
 import { useState } from 'react'
 import Pagina2 from './Dist/Pagina2'
 import Pagina3 from './Dist/Pagina3'
+import ComponentIdiomas from './Dist/components/ComponentIdiomas'
 
 function App() {
 
@@ -21,8 +22,12 @@ function App() {
      
     </div>
     <Colores></Colores>
+
+    
+    <ComponentIdiomas></ComponentIdiomas>
     </Datos>
 
+    
     </>
   )
 }

@@ -37,4 +37,43 @@
 img{
   width: 150px;
   height: 150px;
+  vertical-align: top;
+}
+
+
+.idiomas{
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  cursor: pointer;
+}
+.banderas{
+  border:solid 1px black;
+}
+button{
+  width: 150px;
+  background-color: white;
+  padding: 5px 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border:dotted 1px black;
+  color: white;
+  background-color: teal;
+  font-size: 1.05rem;
+}
+.Botones{
+  display: flex;
+  justify-content: center;
+}
+
+.profesora,.ubicacion{
+  width:320px;
+  text-align:center;
+  border-radius: 8px;
+  background-color: teal;
+  padding-bottom: 15px;
+  color: white;
+  margin: auto;
+  
+
 }
